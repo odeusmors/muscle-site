@@ -5728,8 +5728,7 @@ button.bg-warning:focus {
 }
 
 .bg-danger {
-	background-color: #d01919 !important;
-}
+	background: linear-gradient(90deg, #ffffff 0%, #c39e08 100%);   /* linha divisória */}
 
 a.bg-danger:hover, a.bg-danger:focus,
 button.bg-danger:hover,
@@ -8978,9 +8977,11 @@ button:hover {
 
 h1, .h1 {
 	margin-top: 26px;
-	margin-bottom: 21px;
-	font-size: 36px;
-	line-height: 1.5;
+    margin-bottom: 21px;
+    font-size: 36px;
+    line-height: 1.5;
+    background: linear-gradient(0.25turn, #c39e08, #c39e0852, #ffffff);
+    padding-left: 15px;
 }
 
 @media (min-width: 768px) {
@@ -9546,8 +9547,8 @@ mark,
 }
 
 .bg-danger {
-	background: #d01919;
-	fill: #d01919;
+	background: linear-gradient(90deg, #ffffff 0%, #c39e08 100%);
+    fill: #d01919;
 }
 
 .bg-lilac {
@@ -9619,9 +9620,9 @@ mark,
 .bg-red {
 	background: -moz-linear-gradient(90deg, #d01919 0%, #a31111 100%);
 	background: -webkit-linear-gradient(90deg, #d01919 0%, #a31111 100%);
-	background: -o-linear-gradient(90deg, #d01919 0%, #a31111 100%);
-	background: -ms-linear-gradient(90deg, #d01919 0%, #a31111 100%);
-	background: linear-gradient(90deg, #d01919 0%, #a31111 100%);
+	background: -o-linear-gradient(90deg, #d01919 0%, #a31111 100%); 
+	background: -ms-linear-gradient(90deg, #d01919 0%, #a31111 100%); 
+	background: linear-gradient(90deg, #ffffff 0%, #c39e08 100%);   /* linha divisória */
 }
 
 .bg-mantis, .scrollToNext {
@@ -30901,3 +30902,49 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 html:not(.ie-11):not(.ios) .parallax-disabled {
 	background-attachment: fixed;
 }
+
+/* FRAME DE VIDEO INICIO */
+
+  .video-container {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	padding: 20px;
+	border: 2px solid #ddd;
+	border-radius: 8px;
+	background-color: #ffffff;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .video-container:hover {
+	transform: scale(1.05);
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .video-frame iframe {
+	width: 300px;
+	height: 200px;
+	border-radius: 8px;
+	transition: transform 0.3s ease;
+  }
+  
+  .video-frame iframe:hover {
+	transform: scale(1.02);
+  }
+  
+  .description {
+	max-width: 300px;
+	color: #333;
+  }
+  
+  .description h2 {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+  }
+  
+  .description p {
+	font-size: 1rem;
+	line-height: 1.5;
+  }
+  
