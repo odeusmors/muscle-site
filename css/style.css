@@ -10037,16 +10037,17 @@ fieldset[disabled] .btn-default {
 }
 
 .btn-danger {
-	color: #fff;
-	background-color: #d01919;
-	border-color: #d01919;
+	font-family: 'Helvetic', Sans-serif, Arial;
+    color: #fff;
+    background-color: #000000;
+    border-color: #ffffff;
 }
 
 .btn-danger:focus, .btn-danger.focus, .btn-danger:hover, .btn-danger:active, .btn-danger.active,
 .open > .btn-danger.dropdown-toggle {
 	color: #262627;
-	background-color: #ffce25;
-	border-color: #ffce25;
+	background-color: #c39e08;
+	border-color: #c39e08;
 }
 
 .btn-danger:active, .btn-danger.active,
@@ -30836,8 +30837,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .ui-to-top:hover {
-	color: #fff;
-	background: #ffce25;
+	color: black;
+	background: #c39e08;
 }
 
 .ui-to-top.active {
