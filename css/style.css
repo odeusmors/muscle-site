@@ -9547,8 +9547,7 @@ mark,
 }
 
 .bg-danger {
-	background: linear-gradient(90deg, #ffffff 0%, #c39e08 100%);
-    fill: #d01919;
+	background: linear-gradient(90deg, #b39f12 0%, #b58803 100%);
 }
 
 .bg-lilac {
@@ -24129,7 +24128,6 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: #d01919;
 }
 
 .rd-navbar-floated.rd-navbar-static .rd-navbar-inner > .rd-navbar-top-panel:before {
@@ -24231,7 +24229,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 }
 
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner .rd-navbar-nav > li.active > a, .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner .rd-navbar-nav > li.focus > a, .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner .rd-navbar-nav > li > a:hover {
-	color: #ffce25;
+	color: #997d1e;
 }
 
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-search a:hover span {
@@ -30923,8 +30921,8 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
   }
   
   .video-frame iframe {
-	width: 300px;
-	height: 200px;
+	width: 	253px;
+	height: 450px;
 	border-radius: 8px;
 	transition: transform 0.3s ease;
   }
