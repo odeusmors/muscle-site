@@ -22011,12 +22011,12 @@ a.icon-rounded.fa-facebook:hover {
 	background: #0956b5;
 }
 
-a.icon-rect.fa-twitter:hover,
-a.icon-circle.fa-twitter:hover,
-a.icon-outlined.fa-twitter:hover,
-a.icon-rounded.fa-twitter:hover {
+a.icon-rect.fa-instagram:hover,
+a.icon-circle.fa-instagram:hover,
+a.icon-outlined.fa-instagram:hover,
+a.icon-rounded.fa-instagram:hover {
 	color: #fff;
-	background: #28d4f9;
+	background: #a31111a6;;
 }
 
 a.icon-rect.fa-google-plus:hover,
@@ -33719,4 +33719,10 @@ p .ambiente {
 	padding: 0% 5%;
 	margin: auto;
 	color: blue;
+}  
+
+/* FRAME DE VIDEO FIM */
+
+fa fa-instagram icon-xxs icon-circle icon-darkest-filled {
+	background-color: blue;
 }
