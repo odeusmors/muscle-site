@@ -9895,6 +9895,7 @@ a.text-dark:focus {
 
 .text-muted {
 	color: #939393 !important;
+	text-align: center;
 }
 
 .text-black-50 {
