@@ -33698,15 +33698,17 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 /* FRAME DE VIDEO INICIO */
 
 .video-container {
-	display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 0px;
-    border: 2px solid #ffffff00;
-    border-radius: 8px;
-    background-color: #ffffff00;
-    box-shadow: 0 4px 6px rgb(0 0 0 / 26%);
-    transition: transform 1.0s ease, box-shadow 0.3s ease;
+	display: flex
+	;
+		align-items: center;
+		gap: 15px;
+		padding: 45px;
+		border: 2px solid #ffffff00;
+		border-radius: 8px;
+		background-color: #ffffff00;
+		box-shadow: 0 4px 6px rgb(0 0 0 / 26%);
+		transition: transform 1.0s ease, box-shadow 0.3s ease;
+	
 }
 
 .video-container:hover {
@@ -33755,4 +33757,14 @@ p .ambiente {
 
 fa fa-instagram icon-xxs icon-circle icon-darkest-filled {
 	background-color: blue;
+}
+
+/* Estilização da div do banner */
+.parallax-banner-home {
+    width: 100%; /* Preenche a largura da tela */
+    height: 100vh; /* Ocupa a altura total da viewport */
+    background-size: cover; /* Ajusta a imagem para cobrir o banner */
+    background-attachment: fixed; /* Habilita o efeito parallax */
+    background-position: center; /* Centraliza a imagem no banner */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
 }
