@@ -33716,7 +33716,6 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	transform: scale(1.05);
 	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
-
 .video-frame iframe {
 	max-width: 250px;
     height: 453px;
@@ -33745,6 +33744,13 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
     line-height: 1.5;
     font-family: gagalin, helvetic, sans-serif;
 }
+p .valores {
+	font-size: 1rem;
+	line-height: 1.5;
+	padding: 0% 5%;   
+	margin: auto;
+	color: blue;
+}
 
 p .ambiente {
 	font-size: 1rem;
@@ -33763,7 +33769,7 @@ p .ambiente {
 }
 
 .image-container-planos img {
-    width: 100%;
+    width: 65%;
     height: auto;
     object-fit: cover; /* Ajusta a imagem para preencher o espaço sem distorcer */
 }
@@ -33779,7 +33785,25 @@ p .ambiente {
     height: 400px; /* Ocupa a altura total da viewport */
     background-image: url('#'); /* Substitua pelo caminho da sua imagem */
     background-size: cover; /* Ajusta a imagem para cobrir o banner */
+	padding-left: 10px; /* Adiciona um espaçamento interno à esquerda */
     background-attachment: fixed; /* Habilita o efeito parallax */
     background-position: center; /* Centraliza a imagem no banner */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
 } 
+
+/* Estilo do vídeo */
+.video-container iframe {
+    width: 80%; /* Ajusta a largura para se adaptar à tela */
+    max-width: 1080px; /* Limita a largura máxima */
+    height: 600px; /* Altura do vídeo */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+.video-container .video-caption {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+    text-align: center;
+}
