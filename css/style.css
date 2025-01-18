@@ -351,7 +351,8 @@ figure {
 
 img {
 	vertical-align: middle;
-	border-style: none;
+	max-width: 100%;
+	height: auto;
 }
 
 svg:not(:root) {
@@ -33740,7 +33741,7 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .description p {
-	font-size: 35px;
+	font-size: 30px;
     line-height: 1.5;
     font-family: gagalin, helvetic, sans-serif;
 }
@@ -33753,17 +33754,32 @@ p .ambiente {
 	color: blue;
 }
 
+.image-container-planos {
+	max-width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Ajusta o tamanho da div para a altura total da janela */
+}
+
+.image-container-planos img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ajusta a imagem para preencher o espaço sem distorcer */
+}
+
+
 /* FRAME DE VIDEO FIM */
 
 
 
 /* Estilização da div do banner */
-/*.parallax-banner-home {
-  /*  width: 100%; /* Preenche a largura da tela */
-    /*height: 100vh; /* Ocupa a altura total da viewport */
-    /*background-image: url('#'); /* Substitua pelo caminho da sua imagem */
-    /*background-size: cover; /* Ajusta a imagem para cobrir o banner */
-    /*background-attachment: fixed; /* Habilita o efeito parallax */
-    /*background-position: center; /* Centraliza a imagem no banner */
-    /*background-repeat: no-repeat; /* Evita que a imagem se repita */
-/*}*/ 
+.parallax-banner-home {
+    width: auto; /* Preenche a largura da tela */
+    height: 400px; /* Ocupa a altura total da viewport */
+    background-image: url('#'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir o banner */
+    background-attachment: fixed; /* Habilita o efeito parallax */
+    background-position: center; /* Centraliza a imagem no banner */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+} 
