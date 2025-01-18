@@ -21751,10 +21751,10 @@ a.icon {
 .icon-xs.icon-rect,
 .icon-xs.icon-circle,
 .icon-xs.icon-rounded {
-	width: 50px;
-	height: 50px;
-	line-height: 50px;
-	font-size: 21px;
+	width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
 }
 
 .icon-sm {
@@ -22009,6 +22009,14 @@ a.icon-outlined.fa-facebook:hover,
 a.icon-rounded.fa-facebook:hover {
 	color: #fff;
 	background: #0956b5;
+}
+
+a.icon-rect.fa-whatsapp:hover,
+a.icon-circle.fa-whatsapp:hover,
+a.icon-outlined.fa-whatsapp:hover,
+a.icon-rounded.fa-whatsapp:hover {
+	color: #fff;
+	background: #2c9713e0;
 }
 
 a.icon-rect.fa-instagram:hover,
@@ -33672,14 +33680,14 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 
 .video-container {
 	display: flex;
-	align-items: center;
-	gap: 20px;
-	padding: 20px;
-	border: 2px solid #ddd;
-	border-radius: 8px;
-	background-color: #ffffff;
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
+    align-items: center;
+    gap: 10px;
+    padding: 0px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 1.0s ease, box-shadow 0.3s ease;
 }
 
 .video-container:hover {
