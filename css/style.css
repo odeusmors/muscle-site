@@ -33717,10 +33717,10 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 }
 
 .video-frame iframe {
-	width: 85%;
-	height: 450px;
-	border-radius: 20px;
-	transition: transform 0.3s cubic-bezier(0.65, -0.58, 0, 0.7);
+	max-width: 250px;
+    height: 453px;
+    border-radius: 20px;
+    transition: transform 0.3s cubic-bezier(0.65, -0.58, 0, 0.7);
 }
 
 .video-frame iframe:hover {
