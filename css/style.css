@@ -126,16 +126,35 @@ main,
 nav,
 section {
 	display: block;
-	article,
 }
 
-h2 {
-	.ambiente p {
-		font-size: 18px;
-		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-		color: blue;
-	}
-} 
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+}
+
+input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
 
 
 body {
