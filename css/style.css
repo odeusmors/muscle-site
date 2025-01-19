@@ -203,6 +203,7 @@ body {
 		color: #434345;
 		text-align: left;
 		background-color: #191919;
+		overflow-x: hidden;
 	}
 }
 
@@ -804,7 +805,8 @@ pre code {
 .col-md-7,
 .col-md-8,
 .col-md-9,
-.col-md-10,
+.col-md-10
+.col-md-10-a,
 .col-md-11,
 .col-md-12,
 .col-md,
@@ -918,6 +920,17 @@ pre code {
 .col-10 {
 	flex: 0 0 83.33333%;
 	max-width: 83.33333%;
+}
+
+.col-md-10-a h4 {
+	width: 200px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+    height: 20px;
+    font-size: 17px;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .col-11 {
@@ -5562,7 +5575,6 @@ button.close {
 	padding: 0;
 	background-color: transparent;
 	border: 0;
-	-webkit-appearance: none;
 }
 
 .modal-open {
@@ -9880,6 +9892,10 @@ a.text-warning:hover,
 a.text-warning:focus {
 	color: #e6aa0b !important;
 }
+.text-danger h4 {
+	color: #2d2c2c !important;
+	background-color: black;
+}
 
 .text-danger {
 	color: #2d2c2c !important;
@@ -10157,7 +10173,7 @@ h1,
 	font-size: 36px;
 	line-height: 1.5;
 	/*background: linear-gradient(0.25turn, #c39e08, #c39e0852, #ffffff); */
-	padding: 20px;
+	padding: 50px;
 	font-family: 'Gagalin', Arial, Helvetica, sans-serif;
 	text-align: center;
 }
@@ -11544,6 +11560,14 @@ fieldset[disabled] .btn-danger {
 	border-color: #79ccf2;
 	background: #79ccf2;
 }
+
+section.section-98.section-md-110.novi-background {
+	width: 100%;
+  }
+  
+  .row.justify-content-center.grid-group-lg.offset-top-98 {
+	width: 100%;
+  }
 
 .section-relative {
 	position: relative;
@@ -33818,12 +33842,12 @@ p .ambiente {
 
 /* Estilo da div do vídeo */
 .video-container-2 {
-    width: 80%; /* Ajusta a largura para ser responsivo */
-    max-width: 1080px; /* Limite máximo da largura */
+    width: 95%; /* Ajusta a largura para ser responsivo */
+    max-width: 930px; /* Limite máximo da largura */
     aspect-ratio: 16 / 9; /* Proporção do vídeo */
-    position: relative;
+    position: relative; /* Posição do vídeo na div */
     background: #000; /* Cor de fundo enquanto o vídeo carrega */
-    border-radius: 10px; /* Bordas arredondadas */
+    border-radius: 350px; /* Bordas arredondadas */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
     overflow: hidden; /* Garante que o conteúdo não exceda as bordas */
 }
