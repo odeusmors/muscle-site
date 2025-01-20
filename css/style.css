@@ -27336,11 +27336,11 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 	z-index: 0;
 }
 
-/* Scrollbar */
+/* Scrollbar
 .swiper-scrollbar {
 	position: relative;
 	-ms-touch-action: none;
-}
+}*/
 
 .swiper-container-horizontal>.swiper-scrollbar {
 	position: absolute;
