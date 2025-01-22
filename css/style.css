@@ -10765,7 +10765,7 @@ mark,
 }
 
 .bg-danger {
-	background: linear-gradient(90deg, #000000 0%, #000000 100%);
+	background: linear-gradient(0.25turn, #8d6214, #8d621480, #8d6214)
 }
 
 .bg-lilac {
@@ -25018,7 +25018,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 
 .rd-navbar-floated.rd-navbar-dark.rd-navbar-fixed .rd-navbar-panel,
 .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-fixed .rd-navbar-panel {
-	background: #191919;
+	background: linear-gradient(0.25turn, #8d6214, #8d621461, #8d6214);
 	box-shadow: 0 3px 11px 0 #000;
 }
 
@@ -26330,7 +26330,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 }
 
 .rd-navbar-floated .rd-navbar-top-panel a:hover {
-	color: #ffce25;
+	color: #000000;
 }
 
 .rd-navbar-floated.rd-navbar-static .rd-navbar-mobile-brand {
@@ -26492,8 +26492,8 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 }
 
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner {
-	background: #000000;
-	width: 65%;
+	background: linear-gradient(0.25turn, #8d6214, #8d621461, #8d6214);
+	max-width: 100%;
 }
 
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner .rd-navbar-nav>li.active>a,
