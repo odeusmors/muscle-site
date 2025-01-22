@@ -26493,13 +26493,13 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner {
 	background: linear-gradient(0.25turn, #8d6214, #8d621461, #8d6214);
-	max-width: 100%;
+	max-width: 70%;
 }
 
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner .rd-navbar-nav>li.active>a,
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner .rd-navbar-nav>li.focus>a,
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner .rd-navbar-nav>li>a:hover {
-	color: #997d1e;
+	color: #000000a8;
 }
 
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-search a:hover span {
@@ -26510,10 +26510,6 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-search-toggle,
 .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-cart {
 	color: #fff;
-}
-
-.rd-navbar-floated.rd-navbar-dark.rd-navbar-static.rd-navbar--is-stuck {
-	background: #000000;
 }
 
 .rd-navbar-floated.rd-navbar-light .rd-navbar-inner {
