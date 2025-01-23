@@ -22046,6 +22046,14 @@ a.icon {
 	font-size: 42px;
 }
 
+a.icon-rect.bi-threads:hover,
+a.icon-circle.bi-threads:hover,
+a.icon-outlined.bi-threads:hover,
+a.icon-rounded.bi-threads:hover {
+	color: #fff;
+	background: #0956b5;
+}
+
 a.icon-rect.fa-facebook:hover,
 a.icon-circle.fa-facebook:hover,
 a.icon-outlined.fa-facebook:hover,
