@@ -26257,7 +26257,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 .rd-navbar-floated.rd-navbar-fixed .rd-navbar-top-panel {
 	position: fixed;
 	right: 4px;
-	top: 50px;
+	top: 60px;
 	width: 295px;
 	padding: 15px;
 	z-index: 17;
@@ -26267,7 +26267,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 	visibility: hidden;
 	text-align: center;
 	background: #191919;
-	color: #fff;
+	color: #f5bf2f;
 }
 
 .rd-navbar-floated.rd-navbar-fixed .rd-navbar-top-panel>* {
@@ -26299,7 +26299,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 .rd-navbar-floated.rd-navbar-fixed .rd-navbar-top-panel.active {
 	opacity: 1;
 	visibility: visible;
-	box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: 0 3px 11px 0 rgb(190 144 40 / 33%);
 }
 
 .rd-navbar-floated.rd-navbar-fixed .rd-navbar-top-panel.active>* {
@@ -26338,7 +26338,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 }
 
 .rd-navbar-floated .rd-navbar-top-panel a:hover {
-	color: #000000;
+	color: #ffffffa6;
 }
 
 .rd-navbar-floated.rd-navbar-static .rd-navbar-mobile-brand {
@@ -26507,7 +26507,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner .rd-navbar-nav>li.active>a,
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner .rd-navbar-nav>li.focus>a,
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner .rd-navbar-nav>li>a:hover {
-	color: #000000a8;
+	color: #ffffffa8;
 }
 
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-search a:hover span {

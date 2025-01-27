@@ -1,0 +1,15 @@
+1- estrutura - 
+2- funcionalidade -
+3- (design)estilos, cores e fontes -
+4- mídias compactadas (PNG/MP4) -
+5- links e ícones rel - 
+6- criar um doc com uma hierarquia de dados para o projeto
+   caso precise explicar algo sobre - 
+
+7- #update- adicionar uma forma dos clientes e alunos se inscrever
+    e iserir nome e e-mail para realizar uma captura direta para o whatsapp -
+
+8- hospedar o site em um host seguro (hostigator, AWS) -
+9- diretórios e divs classificadas no doc principal do projeto -
+10- responsivo em diversas etapas -
+11- 
