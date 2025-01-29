@@ -303,7 +303,7 @@ sup {
 }
 
 a {
-	color: inherit;
+	color: #8d6214;
 	text-decoration: none;
 	background-color: transparent;
 	-webkit-text-decoration-skip: objects;
@@ -33876,3 +33876,4 @@ p .ambiente {
     color: white;
     transform: scale(1.2)
 }
+
