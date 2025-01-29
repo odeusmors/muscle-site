@@ -10173,7 +10173,7 @@ h1,
 	font-size: 36px;
 	line-height: 1.5;
 	/*background: linear-gradient(0.25turn, #c39e08, #c39e0852, #ffffff); */
-	padding: 30px;
+	padding: 50px;
 	font-family: 'Gagalin', Arial, Helvetica, sans-serif;
 	text-align: center;
 }
@@ -10765,7 +10765,7 @@ mark,
 }
 
 .bg-danger {
-	background: linear-gradient(0.25turn, #8d6214, #8d621480, #8d6214)
+	background: linear-gradient(0.25turn, #8d6214, #8d621480, #8d6214);
 }
 
 .bg-lilac {
@@ -24706,7 +24706,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 .rd-navbar-top-panel.rd-navbar-static .rd-navbar-megamenu li>a {
 	font-size: 15px;
 	font-weight: 700;
-	font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+	font-family: "ui-monospace", Helvetica, Arial, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	line-height: 24px;
 	text-transform: uppercase;
 }
@@ -25026,7 +25026,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 
 .rd-navbar-floated.rd-navbar-dark.rd-navbar-fixed .rd-navbar-panel,
 .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-fixed .rd-navbar-panel {
-	background: linear-gradient(0.25turn, #8d6214, #8d621461, #8d6214);
+	background: linear-gradient(0.25turn, #8d6214, #8d6214, #8d6214);
 	box-shadow: 0 3px 11px 0 #000;
 }
 
@@ -26500,14 +26500,14 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 }
 
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner {
-	background: linear-gradient(0.25turn, #8d6214, #8d621461, #8d6214);
+	background: linear-gradient(0.25turn, #8d6214, #8d6214, #8d6214);
 	max-width: 70%;
 }
 
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner .rd-navbar-nav>li.active>a,
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner .rd-navbar-nav>li.focus>a,
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner .rd-navbar-nav>li>a:hover {
-	color: #ffffffa8;
+	color: #ffa500;
 }
 
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-search a:hover span {
@@ -33861,4 +33861,18 @@ p .ambiente {
     width: 100%;
     height: 100%;
     border: none;
+}
+
+.botao{
+    border: solid 1px #ffffff;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #8d6214;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+	font-size: 20px;
+}
+.botao:hover{
+    background-color: #0000009e;
+    color: white;
+    transform: scale(1.2)
 }
