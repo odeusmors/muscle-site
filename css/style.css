@@ -312,9 +312,30 @@ a {
 }
 
 a:hover {
-	color: inherit;
+	color: #8d6214;
 	text-decoration: underline;
 }
+
+.button-prev {
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #8d6214;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+  }
+  
+  .button-prev:hover {background-color: #c2871b}
+  
+  .button-prev:active {
+	background-color: #dd9c22;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+  }
 
 a:not([href]):not([tabindex]) {
 	color: inherit;
