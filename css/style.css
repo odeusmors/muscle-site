@@ -304,7 +304,7 @@ sup {
 }
 
 a {
-	color: white;
+	color: black;
 	text-decoration: none;
 	background-color: transparent;
 	-webkit-text-decoration-skip: objects;
@@ -334,8 +334,8 @@ a-nav {
 	text-align: center;
 	cursor: pointer;
 	outline: none;
-	color: #fff;
-	background-color: #8d6214;
+	color: black;
+	background: linear-gradient(0.25turn, #fbff0033, #fbff00, #6567108c);
 	border: none;
 	border-radius: 15px;
 	box-shadow: 0 9px #999;
@@ -675,7 +675,7 @@ mark,
 }
 
 .img-fluid {
-	max-width: 450px;
+	max-width: 370px;
 	height: auto;
 }
 
@@ -10805,7 +10805,7 @@ mark,
 }
 
 .bg-danger {
-	background: linear-gradient(0.25turn, #8d6214, #8d621480, #8d6214);
+	background: linear-gradient(0.25turn, #aba60f7a, #aba60f, #aba60f5e);
 }
 
 .bg-lilac {
@@ -21502,6 +21502,7 @@ a.thumbnail:hover {
 
 .page .text-middle {
 	vertical-align: middle;
+	margin-bottom: 10px;
 }
 
 @media (min-width: 480px) {
@@ -25066,7 +25067,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 
 .rd-navbar-floated.rd-navbar-dark.rd-navbar-fixed .rd-navbar-panel,
 .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-fixed .rd-navbar-panel {
-	background: linear-gradient(0.25turn, #8d6214, #8d6214, #8d6214);
+	background: linear-gradient(0.25turn, #fbff0033, #fbff00, #6567108c);
 	box-shadow: 0 3px 11px 0 #000;
 }
 
@@ -26412,7 +26413,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 	position: relative;
 	text-align: left;
 	padding: 0px;
-	border-radius: 3px;
+	border-radius: 15px;
 }
 
 .rd-navbar-floated.rd-navbar-static .rd-navbar-inner::after {
@@ -26462,6 +26463,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);
+		bottom: 1%;
 	}
 }
 
@@ -26540,7 +26542,7 @@ fieldset[disabled] .swiper-slide-caption .btn-default {
 }
 
 .rd-navbar-floated.rd-navbar-dark .rd-navbar-inner {
-	background: linear-gradient(0.25turn, #8d6214, #8d6214, #8d6214);
+	background: linear-gradient(0.25turn, #aba60f7a, #aba60f, #aba60f5e);
 	max-width: 70%;
 }
 
@@ -31114,6 +31116,7 @@ html[data-x-mode]:not(.lt-ie10) .not-animated {
 	border-radius: 50%;
 	background: #434345;
 	cursor: pointer;
+	margin-bottom: 20px;
 }
 
 .owl-carousel-default .owl-dot.active,
@@ -33904,10 +33907,10 @@ p .ambiente {
 }
 
 .botao{
-    border: solid 1px #000000;
+    border: solid 1px #fbff00;
     border-radius: 20px;
     color: #ffffff;
-    background-color: #8d6214;
+    background-color: #000000ad;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
 	font-size: 20px;
 	margin: 12px;
@@ -33947,3 +33950,6 @@ hr{
   h1.text-footer{
 	color: white;
   }
+
+  /* MAIN STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
