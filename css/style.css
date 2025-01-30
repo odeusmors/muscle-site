@@ -177,6 +177,7 @@ body {
 		margin-bottom: 1rem;
 		font-family: monospace, Helvetic, sans-serif;
 		font-size: 18px;
+		color: white;
 	}
 
 	*,
@@ -303,7 +304,7 @@ sup {
 }
 
 a {
-	color: #000000;
+	color: white;
 	text-decoration: none;
 	background-color: transparent;
 	-webkit-text-decoration-skip: objects;
@@ -674,7 +675,7 @@ mark,
 }
 
 .img-fluid {
-	max-width: 270px;
+	max-width: 450px;
 	height: auto;
 }
 
@@ -11366,7 +11367,7 @@ fieldset[disabled] .btn-default {
 .btn-danger.active,
 .open>.btn-danger.dropdown-toggle {
 	color: #262627;
-	background-color: #c39e08;
+	background-color: #4aab2b;
 	border-color: #c39e08;
 }
 
@@ -33936,5 +33937,13 @@ hr{
 	line-height: 1.5;
 	padding: 0% 5%;
 	margin: auto;
+	color: white;
+  }
+
+  p.ambiente {
+	color: black;
+  }
+
+  h1.text-footer{
 	color: white;
   }
